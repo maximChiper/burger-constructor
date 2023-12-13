@@ -1,10 +1,10 @@
 body{
     background: #2b2a2a;
+    color: #f8bb46;
 }
 .list-of-produces{
     height: 100%;
     width: 40%;
-    background-color: steelblue;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -17,6 +17,7 @@ div{
 .burger{
     height: 100%;
     width: 60%;
+    margin-left: 40px;
 }
 .burger div .burger-component .component-img{
     position: relative;
@@ -28,7 +29,7 @@ div{
 }
 
 .component-moved-to-right{
-    margin-left: 11%;
+    margin-left: 12%;
 }
 .container{
     display: flex;
@@ -49,6 +50,9 @@ div{
 }
 .list-of-produces .burger-produce-for-selection{
     margin-bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content:left ;
 }
 .burger-craft{
     padding-top: 70px;
@@ -57,4 +61,61 @@ div{
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+.selection{
+    width: 70%;
+    height: 40px;
+    font-size: x-large;
+    text-align: center;
+    background-color: transparent ;
+    border: 2px solid #f8bb46;
+    color: white;
+    outline: none;
+
+}
+option{
+    background-color: black;
+    border-radius: 0;
+color: #f8bb46;
+}
+
+.add-item {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    font-size: medium;
+    color: white;
+    font-weight:bolder ;
+    margin-right: 45px;
+}
+.plus-icon {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 21px;
+    border: 2px solid #f8bb46;
+    border-radius: 50%;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #f8bb46;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.totals-del {
+    display: block;
+    width: 270px;
+    height: 2px;
+    background: #f8bb46;
+    margin: 50px 0 45px;
+    border: none;
 }

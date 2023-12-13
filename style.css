@@ -1,3 +1,60 @@
 body{
     background: #2b2a2a;
 }
+.list-of-produces{
+    height: 100%;
+    width: 40%;
+    background-color: steelblue;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    float: left;
+}
+div{
+    display: block;
+}
+.burger{
+    height: 100%;
+    width: 60%;
+}
+.burger div .burger-component .component-img{
+    position: relative;
+    padding: 0 235px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.component-moved-to-right{
+    margin-left: 11%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.label{
+    display: block;
+    border-radius: 0;
+    white-space: normal;
+    color: #f8bb46;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.list-of-produces .burger-produce-for-selection{
+    margin-bottom: 15px;
+}
+.burger-craft{
+    padding-top: 70px;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}

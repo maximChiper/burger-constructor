@@ -1,0 +1,1 @@
+const arr =['BEEF PATTY (35 lei)','BREADED CHICKEN FILLET (25 lei)','GRILLED CHICKEN FILLET (25 lei)']

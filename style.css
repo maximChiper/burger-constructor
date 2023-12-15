@@ -123,3 +123,14 @@ color: #f8bb46;
 .list{
     margin-top: 5px;
 }
+.del-item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 15px;
+    height: 17px;
+    background: url(img-burger/delete-option.png) no-repeat center;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}

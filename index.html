@@ -21,10 +21,10 @@
                 <div class="label">2. MEAT</div>
                 <div class="meat">
                     <div class="list" id="meat">
-                        <select class="selection">
-                            <option>BEEF PATTY (35 lei)</option>
-                            <option>BREADED CHICKEN FILLET (25 lei)</option>
-                            <option>GRILLED CHICKEN FILLET (25 lei)</option>
+                        <select class="selection" id="meat-selection">
+                            <option >BEEF PATTY (35 lei)</option>
+                            <option >BREADED CHICKEN FILLET (25 lei)</option>
+                            <option >GRILLED CHICKEN FILLET (25 lei)</option>
                         </select>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="burger-produce-for-selection">
                 <div class="label">4. TOP SAUCE</div>
-                <div class="top-sauce"></div>
+                <div class="top-sauce">
                 <div class="list" id="top-sauce">
                     <select class="selection">
                         <option>-</option>
@@ -68,6 +68,7 @@
                         <option>SRIRACHA (spicy) (6 lei)</option>
                         <option>CLASSY SAUCE (4 lei)</option>
                     </select>
+                </div>
                 </div>
                 <div class="add-item " id="add-top-sauce">
                     <span class="plus-icon">+</span>
@@ -119,15 +120,30 @@
 
         </div>
         <div class="burger">
-            <div class="burger-component">
+            <div class="burger-component" >
                 <span class="image-description">BRIOCHE BUN</span>
                 <img src="img-burger/arrow-left.png" alt="">
                 <img src="img-burger/asset-1.png" class="component-img" alt="">
             </div>
-            <div class="burger-component component-moved-to-right">
+            <div class="burger-component component-moved-to-right "  id="beef-patty">
                 <img src="img-burger/pirjoala-de-vita.png" class="component-img component-moved-to-right" alt="">
                 <img src="img-burger/arrow-right.png" alt="">
                 <span class="image-description">BEEF PATTY</span>
+            </div>
+            <div class="bottom-souse-img">
+
+            </div>
+            <div class="top-souse-img">
+
+            </div>
+            <div class="chees-img">
+
+            </div>
+            <div class="topping-img">
+
+            </div>
+            <div class="meat-img">
+
             </div>
             <div class="burger-component">
                 <span class="image-description">BRIOCHE BUN</span>
@@ -138,5 +154,7 @@
     </div>
 </div>
 <script src="main.js"></script>
+<script src="propa.js"></script>
+
 </body>
 </html>

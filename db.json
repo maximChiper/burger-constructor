@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "ingrediente": [
+    {
+      "nume": "BEEF PATTY (35 lei)",
+      "prescurtare":"BEEF PATTY",
+      "arrow": "arrow-left.png",
+      "img": "pirjoala-de-vita.png",
+      "div": "meat-img"
+    },
+    {
+      "nume": "BREADED CHICKEN FILLET (25 lei)",
+      "prescurtare":"BREADED CHICKEN FILLET",
+      "arrow": "arrow-left.png",
+      "img": "pirjoala-de-pui.png",
+      "div": "meat-img"
+    },
+    {
+      "nume": "GRILLED CHICKEN FILLET (25 lei)",
+      "prescurtare":"GRILLED CHICKEN FILLET",
+      "arrow": "arrow-left.png",
+      "img": "pirjoala-de-pui.png",
+      "div": "meat-img"
+    }
+  ]
+}

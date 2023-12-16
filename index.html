@@ -21,7 +21,7 @@
                 <div class="label">2. MEAT</div>
                 <div class="meat">
                     <div class="list" id="meat">
-                        <select class="selection" id="meat-selection">
+                        <select class="selection" id="meat-selection" onchange="a(this, event)">
                             <option >BEEF PATTY (35 lei)</option>
                             <option >BREADED CHICKEN FILLET (25 lei)</option>
                             <option >GRILLED CHICKEN FILLET (25 lei)</option>
@@ -37,7 +37,7 @@
                 <div class="label">3. BOTTOM SAUCE</div>
                 <div class="bottom-sauce">
                     <div class="list" id="bottom-sauce">
-                        <select class="selection">
+                        <select class="selection" onchange="a(this, event)">
                             <option>-</option>
                             <option>KETCHUP (4 lei)</option>
                             <option>TARTAR SAUCE (4 lei)</option>
@@ -58,7 +58,7 @@
                 <div class="label">4. TOP SAUCE</div>
                 <div class="top-sauce">
                 <div class="list" id="top-sauce">
-                    <select class="selection">
+                    <select class="selection" onchange="a(this, event)">
                         <option>-</option>
                         <option>GARLIC SAUCE (4 lei)</option>
                         <option>TARTAR SAUCE (4 lei)</option>
@@ -79,7 +79,7 @@
                 <div class="label">5. CHEESE</div>
                 <div class="cheese">
                     <div class="list" id="cheese">
-                        <select class="selection">
+                        <select class="selection" onchange="a(this, event)">
                             <option>-</option>
                             <option>"CHEDDAR" CHEESE (12 lei)</option>
                             <option>DORBLU CHEESE (15 lei)</option>
@@ -95,7 +95,7 @@
                 <div class="label">6. TOPPINGS</div>
                 <div class="toppings">
                     <div class="list" id="toppings">
-                        <select class="selection">
+                        <select class="selection" onchange="a(this, event)">
                             <option>-</option>
                             <option>CRISPY BACON (12 lei)</option>
                             <option>FRIED EGG (10 lei)</option>
@@ -125,11 +125,7 @@
                 <img src="img-burger/arrow-left.png" alt="">
                 <img src="img-burger/asset-1.png" class="component-img" alt="">
             </div>
-            <div class="burger-component component-moved-to-right "  id="beef-patty">
-                <img src="img-burger/pirjoala-de-vita.png" class="component-img component-moved-to-right" alt="">
-                <img src="img-burger/arrow-right.png" alt="">
-                <span class="image-description">BEEF PATTY</span>
-            </div>
+
             <div class="bottom-souse-img">
 
             </div>

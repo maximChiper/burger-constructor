@@ -23,8 +23,6 @@ addMeat.addEventListener('click', () => {
 })
 
 
-
-
 addBottomSauce.addEventListener('click', () => {
     const original = document.querySelector('#bottom-sauce')
     const clone = original.cloneNode(true)
@@ -77,10 +75,37 @@ addToppings.addEventListener('click', () => {
     })
 })
 
-const meatImg = document.querySelector('.meat-img')
-const patty = document.querySelector('#meat-selection')
-patty.addEventListener('change',()=>{
-    console.log('eeeeeeeeeeeeee')
-})
+function a(e, event) {
+    const a = event.target.value
+    console.log(a);
+    fetch('http://localhost:3000/ingrediente')
+        .then((response) => {
+            return response.json()
+        })
+        .then((object) => {
+            console.log(object);
+            object.forEach(item => {
+                const insertdiv = item.div.split('"');
+                const divselect = document.getElementsByClassName(`${insertdiv}`);
+                if (a === item.nume) {
+                    const structure = `<div>
+            <span class="image-description">${item.prescurtare}</span>
+            <img src="img-burger/${item.arrow}" alt="">
+            <img src="img-burger/${item.img}" class="component-img" alt="">
+</div>`;
+                        for (let i = 0; i < divselect.length; i++) {
+                            if(divselect[i].innerHTML.length === 0){
+                                divselect[i].innerHTML += structure;
+                            }
+                            else{
+                                divselect[i].innerHTML = structure;
+                            }
+                        }
+                }
+            });
+        })
+}
+
+
 
 
